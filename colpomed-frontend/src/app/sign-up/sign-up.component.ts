@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../shared/services/auth.service';
+
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.sass']
+  selector: 'app-sign-up',
+  templateUrl: './sign-up.component.html',
+  styleUrls: ['./sign-up.component.sass']
 })
-export class LoginComponent {
+export class SignUpComponent {
   constructor(public authService: AuthService) {}
-  
 }
